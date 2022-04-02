@@ -21,6 +21,6 @@ Consuming Rest API of NASA with simple method of JavaScript.
 6. Bases of HTML with DOM
 
 ## Steps to run the project:
-1. run npm i to install all dependencies  
-2. run npx webpack --mode development to generate files in the folder dist  
-3. finally run npm start  
+1. run **npm i** to install all dependencies  
+2. run **npx webpack --mode development** to generate files in the folder dist  
+3. finally run **npm start**  
