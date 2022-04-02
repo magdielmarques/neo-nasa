@@ -8,7 +8,7 @@ Consuming Rest API of NASA with simple method of JavaScript.
 ## Utilized Tech Stack
 1. JavaScript
 2. HTML
-3. Vuetify
+3. Bootstrap
 4. Webpack
 5. Babel
 
