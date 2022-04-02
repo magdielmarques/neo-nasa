@@ -1,4 +1,3 @@
-//gerar arquivo antes de rodar script package.json ---> npx webpack --mode development  
 const path = require('path');
 
 module.exports = { 

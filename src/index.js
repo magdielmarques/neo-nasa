@@ -1,8 +1,8 @@
 import 'core-js';
 import 'regenerator-runtime/runtime';
 
-import Neo from "./neo" //export nao nomeado, por isso importei dessa forma
-import { getNeos } from "./neo_service" //export nomeado, por isso importei dessa forma
+import Neo from "./neo" 
+import { getNeos } from "./neo_service" 
 
 async function loadNeos() {
   let neos = []
@@ -24,7 +24,7 @@ function renderNEOs(neos) {
     const isSentry = neo.isSentry ? "Danger of collision" : "No danger of collision"
     const text = `ID ${neo["id"]} | NAME ${neo.name} | AVERAGE ESTIMATE DIAMETER (${neo.averageEstimateDiameter}) | ${isSentry} `
     liElement.innerText = text
-    liElement.classList.add("list-group-item")
+    liElement.classList.add("list-group-item list-group-item-success")
     ulElement.appendChild(liElement)
   })
 }
