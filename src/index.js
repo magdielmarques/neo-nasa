@@ -22,11 +22,11 @@ function renderNEOs(neos) {
   neos.forEach(neo => {
     const liElement = document.createElement("li")
     const isSentry = neo.isSentry ? "Danger of collision" : "No danger of collision"
-    const text = `id ${neo["id"]} - name ${neo.name} - average estimate diameter (${neo.averageEstimateDiameter}) - ${isSentry} `
+    const text = `ID ${neo["id"]} | NAME ${neo.name} | AVERAGE ESTIMATE DIAMETER (${neo.averageEstimateDiameter}) | ${isSentry} `
     liElement.innerText = text
+    liElement.classList.add("list-group-item")
     ulElement.appendChild(liElement)
   })
 }
 
 loadNeos()
-
