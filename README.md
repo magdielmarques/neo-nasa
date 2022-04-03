@@ -23,4 +23,7 @@ Consuming Rest API of NASA with simple method of JavaScript.
 ## Steps to run the project:
 1. run npm i to install all dependencies  
 2. run npx webpack --mode development to generate files in the folder dist  
-3. finally run npm start  
+3. finally run npm start    
+
+![Print of web page](./assets/print.png)
+
