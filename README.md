@@ -4,7 +4,7 @@ Consuming Rest API of NASA with simple method of JavaScript.
 ## About Project
  >"Near-Earth Objects (NEOs) are comets and asteroids that have been nudged by the gravitational attraction of nearby planets into orbits that allow them to enter the Earth’s neighborhood" - (NASA)  
 
-Then in this project i'll provide ( in the simples web page ) it for all of us.  
+Then in this project i'll provide ( in the simple web page ) it for all of us.  
 
 ## Utilized Tech Stack
 1. JavaScript
